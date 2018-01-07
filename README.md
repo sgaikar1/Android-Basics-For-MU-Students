@@ -4,7 +4,7 @@ This repository contains all the basics included in syllabus for Engineering Stu
 ## Contents:
 
 * [RecyclerViewExample](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/RecyclerViewExample)
-* [Intents Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/IntentExample)
+* [Intents and Notifications Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/IntentExample)
 * [BroadcastReceiversExample](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/BroadcastReceiverExample)
 * [SQLite Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/SQLiteExample)
 * [XML and JSON parsing Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/XmlAndJsonParsingExample)

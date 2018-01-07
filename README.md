@@ -11,6 +11,11 @@ This repository contains all the basics included in syllabus for Engineering Stu
 * [Video, Audio And Camera Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/VideoPlayer)
 * [Location Provider Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/LocationProviderExample)
 
+## Medium Post
+[Click here](https://medium.com/@sgaikar1/android-basics-for-mu-students-63bc9093bf02) for learning this basics with documentation.
+
+
+
 ## License
 
 * [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:text="Audio Controller" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/btn_start"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_width="wrap_content"
+        android:text="start" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/btn_pause"
+        android:layout_alignTop="@+id/btn_start"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:text="pause" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/btn_stop"
+        android:layout_alignTop="@+id/btn_pause"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_pause"
+        android:layout_width="wrap_content"
+        android:text="stop" />
+
+</RelativeLayout>

@@ -8,7 +8,7 @@ This repository contains all the basics included in syllabus for Engineering Stu
 * [BroadcastReceiversExample](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/BroadcastReceiverExample)
 * [SQLite Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/SQLiteExample)
 * [XML and JSON parsing Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/XmlAndJsonParsingExample)
-* [Video and Audio Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/VideoPlayer)
+* [Video, Audio And Camera Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/VideoPlayer)
 * [Location Provider Example](https://github.com/sgaikar1/Android-Basics-For-MU-Students/tree/master/LocationProviderExample)
 
 ## License

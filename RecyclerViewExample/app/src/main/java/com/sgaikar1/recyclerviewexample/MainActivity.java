@@ -26,22 +26,15 @@ public class MainActivity extends AppCompatActivity{
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        mAdapter = new MyRecyclerViewAdapter(getDataSet());
+        mAdapter = new MyRecyclerViewAdapter(getDataSet(), new MyRecyclerViewAdapter.MyClickListener() {
+            @Override
+            public void onItemClick(int position, View v) {
+                Log.i(LOG_TAG, " Clicked on Item " + position);
+            }
+        });
         mRecyclerView.setAdapter(mAdapter);
         RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, LinearLayoutManager.VERTICAL);
         mRecyclerView.addItemDecoration(itemDecoration);
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        ((MyRecyclerViewAdapter) mAdapter).setOnItemClickListener(new
-              MyRecyclerViewAdapter.MyClickListener() {
-                  @Override
-                  public void onItemClick(int position, View v) {
-                      Log.i(LOG_TAG, " Clicked on Item " + position);
-                  }
-              });
     }
 
     private ArrayList<DataObject> getDataSet() {

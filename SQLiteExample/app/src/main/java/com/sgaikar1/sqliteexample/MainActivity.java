@@ -7,7 +7,6 @@ import android.util.Log;
 
 import java.util.List;
 
-// TODO: 18/12/17 http://mobilesiri.com/android-sqlite-database-tutorial-using-android-studio/
 public class MainActivity extends AppCompatActivity {
 
     @Override

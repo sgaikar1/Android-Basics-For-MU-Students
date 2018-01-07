@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class MyRecyclerViewAdapter extends RecyclerView
         .Adapter<MyRecyclerViewAdapter
         .DataObjectHolder> {
-    private static String LOG_TAG = "MyRecyclerViewAdapter";
+    private static String LOG_TAG = "MyCustomRVAdapter";
     private ArrayList<DataObject> mDataset;
     private static MyClickListener myClickListener;
 

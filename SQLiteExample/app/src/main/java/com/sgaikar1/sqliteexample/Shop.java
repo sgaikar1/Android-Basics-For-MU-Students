@@ -1,8 +1,5 @@
 package com.sgaikar1.sqliteexample;
 
-/**
- * Created by Bilal-PC on 010.10 Sep,15.
- */
 public class Shop {
 
     private int id;

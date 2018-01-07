@@ -18,9 +18,9 @@ public class MyRecyclerViewAdapter extends RecyclerView
         .DataObjectHolder> {
     private static String LOG_TAG = "MyCustomRVAdapter";
     private ArrayList<DataObject> mDataset;
-    private static MyClickListener myClickListener;
+    private MyClickListener myClickListener;
 
-    public static class DataObjectHolder extends RecyclerView.ViewHolder
+    public class DataObjectHolder extends RecyclerView.ViewHolder
             implements View
             .OnClickListener {
         TextView label;
@@ -38,12 +38,10 @@ public class MyRecyclerViewAdapter extends RecyclerView
         }
     }
 
-    public void setOnItemClickListener(MyClickListener myClickListener) {
-        this.myClickListener = myClickListener;
-    }
 
-    public MyRecyclerViewAdapter(ArrayList<DataObject> myDataset) {
+    public MyRecyclerViewAdapter(ArrayList<DataObject> myDataset, MyClickListener myClickListener) {
         mDataset = myDataset;
+        this.myClickListener = myClickListener;
     }
 
     @Override
